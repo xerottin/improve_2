@@ -81,6 +81,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+.idea
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -169,3 +170,29 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+__pycache__
+event_consumer/.env
+.DS_Store
+venv
+.vscode/
+*.pyc
+.idea
+node_modules
+*.rdb
+data
+backend/data/*
+frontend/node_modules/
+frontend/package-lock.json
+letsencrypt
+*.db
+*.joblib
+*.pt
+.mytb-data
+.mytb-logs
+/db_volume*
+mongo_data
+images
+backend_2/celerybeat-schedule
+backend_2/test.py
+/database
