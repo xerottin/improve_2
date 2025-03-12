@@ -1,9 +1,9 @@
 import requests
 
+
 BASE_URL = "https://api"
 tenant_id = 1
 date = "2025-03-11"
-
 district_ids = range(139, 210)
 
 
