@@ -8,7 +8,7 @@ date_list = [
 
 tenant_id = 1
 
-BASE_URL = "https://api.realsoft.ai/3rdparty/add/manual/attendance/to_spoofing"
+BASE_URL = "https://api"
 
 def call_api(session, tenant_id, date, region_id):
     params = {
