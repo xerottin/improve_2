@@ -1,0 +1,34 @@
+⚠️ Device ID H010001181A0100010436 не найден в списке активных устройств!
+✅ Device ID: H010001181A0100011300, User Num: 29
+✅ Device ID: H010001181A0100010641, User Num: 1
+✅ Device ID: H010001180F0100010017, User Num: 8016
+✅ Device ID: H010001181A0100010949, User Num: 29
+✅ Device ID: H010001181A0100011081, User Num: 171
+✅ Device ID: H010001181A0100010345, User Num: 39
+✅ Device ID: H010001181A0100010907, User Num: 427
+✅ Device ID: H010001181A0100010625, User Num: 494
+✅ Device ID: H010001181A0100011232, User Num: 490
+✅ Device ID: H010001181A0100010445, User Num: 39
+✅ Device ID: H010001181A0100010926, User Num: 2
+✅ Device ID: H010001181A0100010841, User Num: 1
+✅ Device ID: H010001181A0100010720, User Num: 171
+✅ Device ID: H010001181A0100010465, User Num: 105
+✅ Device ID: H010001181A0100010662, User Num: 817
+✅ Device ID: H010001181A0100010387, User Num: 816
+✅ Device ID: H010001181A0100010781, User Num: 27
+⚠️ Device ID H010001181A0100011206 не найден в списке активных устройств!
+⚠️ Device ID H010001181A0100011133 не найден в списке активных устройств!
+❌ Ошибка для H010001181A0100010736: 404 | {"detail":"Device not found"}
+✅ Device ID: H010001181A0100010553, User Num: 35
+✅ Device ID: H010001181A0100010511, User Num: 58
+✅ Device ID: H010001181A0100011109, User Num: 27
+✅ Device ID: H010001180F0100010019, User Num: 4571
+⚠️ Device ID H010001181A0100011222 не найден в списке активных устройств!
+✅ Device ID: H010001181A0100010715, User Num: 31
+✅ Device ID: H010001181A0100010277, User Num: 35
+⚠️ Device ID H010001181A0100010594 не найден в списке активных устройств!
+✅ Device ID: H010001181A0100010617, User Num: 2
+✅ Device ID: H010001180F0100010019, User Num: 4571
+⚠️ Device ID H010001181A0100011169 не найден в списке активных устройств!
+✅ Device ID: H010001181A0100010915, User Num: 1150
+✅ Device ID: H010001181A0100011312, User Num: 1291

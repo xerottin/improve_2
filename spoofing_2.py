@@ -1,21 +1,20 @@
 import requests
 
-region_ids = range(2,15)
+region_ids = range(2,210)
 
 date_list = [
-    '17', '18', '19', '20', '21',
-    '24', '25', '26', '27', '28'
+    '17'
 ]
 
-tenant_id = 18
+tenant_id = 1
 
-BASE_URL = "https://api"
+BASE_URL = "https://api.realsoft.ai/3rdparty/add/manual/attendance/to_spoofing"
 
 def call_api(session, tenant_id, date, region_id):
     params = {
         "tenant_id": tenant_id,
-        "date": f"2025-02-{date}",
-        "region_id": region_id,
+        "date": f"2025-03-{date}",
+        "district_id": region_id,
     }
 
     try:
