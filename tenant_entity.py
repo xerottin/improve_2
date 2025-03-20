@@ -30,7 +30,6 @@ with engine.connect() as connection:
 
     result = connection.execute(query_identity)
 
-    # Print vertical format
     for row in result:
         print(f"Tenant Entity ID: {row.tenant_entity_id}")
         print(f"  Users with Photo: {row.user_with_photo}")
