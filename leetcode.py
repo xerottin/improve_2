@@ -180,12 +180,7 @@ from typing import List
 #         return len(res)
 
 #10
-class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
-
+# Короче я начинаю с начала вот эту 75
 
 
 
