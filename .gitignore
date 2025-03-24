@@ -196,3 +196,4 @@ images
 backend_2/celerybeat-schedule
 backend_2/test.py
 /database
+work_scripts
