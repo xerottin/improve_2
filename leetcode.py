@@ -249,6 +249,7 @@ from typing import List
 #         return [(candy + extraCandies) >= candy_max for candy in candies]
 
 
+
 # class Solution:
 #     def canPlaceFlowers(self, n: int) -> bool:
 #         flowerbed = [1,0,0,0,1]
