@@ -232,6 +232,16 @@ from typing import List
 #         gcd_ = gcd(len(str1), len(str2))
 #         return str1[:gcd_]
 
+class Solution:
+    def CandyShop(self, candies: List[int], extraCandies: int) -> List[bool]:
+        result = []
+        candy_max = max(candies)
+        for candy in candies:
+            if candy_max > extraCandies + candy:
+                result.append(False)
+            else:
+                result.append(True)
+        return result
 
 
 
