@@ -1,4 +1,5 @@
 #two sun
+from itertools import count
 from typing import List
 
 
@@ -195,20 +196,41 @@ from typing import List
 #         return ''.join(result)
 
 #1
-class Solution:
-    def mergeAlternately(self, word1: str, word2: str) -> str:
-        result = []
-        a, b = 0, 0
-        while a < len(word1) and b < len(word2):
-            result.append(word1[a])
-            result.append(word2[b])
-            a += 1
-            b += 1
-        result.extend(word1[a::])
-        result.extend(word2[b::])
-        return ''.join(result)
+# class Solution:
+#     def mergeAlternately(self, word1: str, word2: str) -> str:
+#         result = []
+#         a, b = 0, 0
+#         while a < len(word1) and b < len(word2):
+#             result.append(word1[a])
+#             result.append(word2[b])
+#             a += 1
+#             b += 1
+#         result.extend(word1[a::])
+#         result.extend(word2[b::])
+#         return ''.join(result)
 
+#2
+# class Solution:
+#     def gcdOfStrings(self, str1: str, str2: str) -> str:
+#         result = []
+#         a = len(str1)
+#         b = len(str2)
+#         if a > b:
+#             c = a-b
+#             print(str1[-c:])
+#         if b > a:
+#             c = b-a
+#             print(str1[-c:])
+#         else:
+#             return ""
 
+# from math import gcd
+# class Solution:
+#     def gcdOfStrings(self, str1: str, str2: str) -> str:
+#         if str1 + str2 != str2 + str1:
+#             return ""
+#         gcd_ = gcd(len(str1), len(str2))
+#         return str1[:gcd_]
 
 
 
