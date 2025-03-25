@@ -181,8 +181,32 @@ from typing import List
 
 #10
 # Короче я начинаю с начала вот эту 75
+# class Solution:
+#     def mergeAlternately(self, word1: str, word2: str) -> str:
+#         result = []
+#         u, k = 0, 0
+#         while u < len(word1) and k < len(word2):
+#             result.append(word1[u])
+#             result.append(word2[k])
+#             u += 1
+#             k += 1
+#         result.extend(word1[u::])
+#         result.extend(word2[k::])
+#         return ''.join(result)
 
-
+#1
+class Solution:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
+        result = []
+        a, b = 0, 0
+        while a < len(word1) and b < len(word2):
+            result.append(word1[a])
+            result.append(word2[b])
+            a += 1
+            b += 1
+        result.extend(word1[a::])
+        result.extend(word2[b::])
+        return ''.join(result)
 
 
 
