@@ -88,19 +88,19 @@ from typing import List
 
 #4
 
-# class Solution:
-#     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
-#         length = len(flowerbed)
-#         for i in range(length):
-#             if flowerbed[i] == 0:
-#                 left_empty = i == 0 or flowerbed[i - 1] == 0
-#                 right_empty = i == length - 1 or flowerbed[i + 1] == 0
-#                 if left_empty and right_empty:
-#                     flowerbed[i] = 1
-#                     n-=1
-#                 if n == 0:
-#                     return True
-#         return n<=0
+class Solution:
+    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+        length = len(flowerbed)
+        for i in range(length):
+            if flowerbed[i] == 0:
+                left_empty = i == 0 or flowerbed[i - 1] == 0
+                right_empty = i == length - 1 or flowerbed[i + 1] == 0
+                if left_empty and right_empty:
+                    flowerbed[i] = 1
+                    n-=1
+                if n == 0:
+                    return True
+        return n<=0
 
 
 
@@ -249,21 +249,21 @@ from typing import List
 #         return [(candy + extraCandies) >= candy_max for candy in candies]
 
 
-
-# class Solution:
-#     def canPlaceFlowers(self, n: int) -> bool:
-#         flowerbed = [1,0,0,0,1]
-#         lenght = len(flowerbed)
-#         for i in range(lenght):
-#             if flowerbed[i]==0:
-#                 left_empty = i == 0 or flowerbed[i - 1] == 0
-#                 right_empty = i == lenght-1 or flowerbed[i + 1] == 0
-#                 if left_empty and  right_empty:
-#                     var = flowerbed[i] == 1
-#                     n-=1
-#                 if n == 0:
-#                     return True
-#         return n <=0
+class Solution:
+    def canPlaceFlowers(self) -> bool:
+        flowerbed = [1,0,0,0,0,0,1]
+        n =2
+        length = len(flowerbed)
+        for i in range(length):
+            if i == 0:
+                left_side = i == 0 or flowerbed[i-1] == 0
+                right_side = i == length-1 or flowerbed[i+1] == 0
+                if left_side and right_side:
+                    flowerbed[i]=1
+                    n-=1
+                if n==0:
+                    print(True)
+        print(False)
 
 
 
